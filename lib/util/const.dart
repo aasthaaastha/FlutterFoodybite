@@ -16,7 +16,6 @@ class Constants {
     backgroundColor: lightBG,
     primaryColor: lightPrimary,
     accentColor: lightAccent,
-    cursorColor: lightAccent,
     scaffoldBackgroundColor: lightBG,
     appBarTheme: AppBarTheme(
       textTheme: TextTheme(
@@ -26,7 +25,7 @@ class Constants {
           fontWeight: FontWeight.w800,
         ),
       ),
-    ),
+    ), textSelectionTheme: TextSelectionThemeData(cursorColor: lightAccent),
   );
 
   static ThemeData darkTheme = ThemeData(
